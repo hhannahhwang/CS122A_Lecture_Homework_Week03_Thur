@@ -18,7 +18,6 @@ localparam
     RX_DATA = 2,
     STOP = 3;
 
-// Internal signals
 wire uart_clk;
 reg [1:0] state = INIT;
 reg [2:0] bit_count = 0;
